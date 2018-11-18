@@ -1,33 +1,117 @@
 header {
     width: 100%;
     height: 150px;
-    background-color: lightgray;
+    background-color: rgb(233, 233, 233);
     text-align: center;
     padding: 10px;
     vertical-align: middle;
     margin-bottom: 20px;
-}
-
-.con  {
- width: 80%;
- margin: 0 10% 20% 10%;
-
-}
-
-body {
-    background-color: gray;
+    position: block;
 }
 
 nav {
     width: 100%;
     height: 150px;
-    background-color: lightgray;
+    background-color: rgb(233, 233, 233);
     text-align: center;
     padding: 10px;
     vertical-align: middle;
     margin-bottom: 20px;
-    position: relative;
+    position: block;
+} 
+
+.footer {
+    width: 95%;
+    height: 150px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+    margin-top: 320px;
+    position: absolute;
+   
+} 
+
+/* .con  {
+ width: 80%;
+ margin: 0 10% 20% 10%;
+
+} */
+
+body {
+    background-color: gray;
+    padding: 20px;
+    
 }
+
+
+.parent-div {
+    margin: 0 auto;
+    width: 96%;
+    border: 2px solid red;
+    position: absolute;
+}
+
+.child-div {
+    margin: 0 auto;
+    width: 48%;
+    border: 2px solid blue;
+    background-color: rgb(233, 233, 233);
+    float: left;
+    position: relative;
+    padding: 0px 20px -10px 10px;
+   
+}
+
+.child-div1 {
+    margin: 0 auto;
+    width: 48%;
+    height: 290px;
+    border: 2px solid blue;
+    background-color: rgb(233, 233, 233);
+    float: right;
+}
+
+.article {
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid blue;
+    background-color: gray;
+    padding: 0 10px 10px 0;
+    margin-bottom: 20px;
+    position: relative;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+
+.h123 {
+    margin: 10px auto;
+    padding: 10px auto;
+    width: 80%;
+    border: 2px solid green;
+    position: relative;
+    background-color: rgb(233, 233, 233);
+}
+
+.p {
+    margin: 0 auto;
+    width: 80%;
+    border: 2px solid rgb(205, 95, 219);
+    position: relative;
+    background-color: rgb(233, 233, 233);
+
+}
+
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+    color:darkgray;
+}
+
+
+
 
 /* .section {
     width: 48%;
@@ -38,7 +122,7 @@ nav {
 
 } */
 
-.section1 {
+/* .section1 {
     width: 48%;
     height: 350px;
     background-color: lightgray;
@@ -89,18 +173,6 @@ p {
 }
 
 
-footer {
-    width: 100%;
-    height: 150px;
-    background-color: lightgray;
-    text-align: center;
-    padding: 10px;
-    vertical-align: middle;
-    margin-bottom: 20px;
-    overflow: auto;
-    margin-bottom: 20%;
-    margin-top: 20px
-}
 
 
 
