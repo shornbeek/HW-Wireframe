@@ -32,11 +32,10 @@ nav {
 } 
 
 .footer {
-    height: 150px;
+    height: 90px;
     background-color: rgb(233, 233, 233);
     text-align: center;
     padding: 10px;
-   
     margin-top: 350px;
    
    
@@ -69,7 +68,7 @@ body {
     background-color: rgb(233, 233, 233);
     float: left;
     position: relative;
-    padding: 0px 20px -10px 10px;
+
    
 }
 
@@ -80,6 +79,7 @@ body {
     border: 2px solid blue;
     background-color: rgb(233, 233, 233);
     float: right;
+    position: relative;
 }
 
 .article {
