@@ -1,34 +1,44 @@
 header {
-    width: 100%;
+   
     height: 150px;
     background-color: rgb(233, 233, 233);
     text-align: center;
     padding: 10px;
-    vertical-align: middle;
-    margin-bottom: 20px;
     position: block;
 }
 
+.god {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    border: 2px solid red;
+    position: absolute;
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 12%;
+    margin-top: 2%;
+    
+}
+
 nav {
-    width: 100%;
     height: 150px;
     background-color: rgb(233, 233, 233);
     text-align: center;
     padding: 10px;
-    vertical-align: middle;
+    margin-top: 20px;
     margin-bottom: 20px;
     position: block;
 } 
 
 .footer {
-    width: 95%;
     height: 150px;
     background-color: rgb(233, 233, 233);
     text-align: center;
     padding: 10px;
-    vertical-align: middle;
-    margin-top: 320px;
-    position: absolute;
+   
+    margin-top: 350px;
+   
    
 } 
 
@@ -40,15 +50,15 @@ nav {
 
 body {
     background-color: gray;
-    padding: 20px;
-    
+    margin-left: 10%;
+    margin-right: 10%
 }
 
 
 .parent-div {
     margin: 0 auto;
-    width: 96%;
-    border: 2px solid red;
+    width: 100%;
+    border: 1px solid orange;
     position: absolute;
 }
 
@@ -66,7 +76,7 @@ body {
 .child-div1 {
     margin: 0 auto;
     width: 48%;
-    height: 290px;
+    height: 295px;
     border: 2px solid blue;
     background-color: rgb(233, 233, 233);
     float: right;
